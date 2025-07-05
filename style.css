@@ -1,0 +1,96 @@
+html{
+    background-color: antiquewhite;
+}
+h1{
+    color:maroon;
+    font-family:'Segoe UI';
+}
+h2{
+    color: brown;
+}
+#blinking-text{
+    color: chartreuse;
+}
+p{
+    color:darkslateblue;
+}
+#logo{
+    display: block;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.center-text{
+    text-align: center;
+}
+#copyright{
+    padding-top: 12px;
+    font-size: 0.75em;
+}
+table{
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    font-family: 'Franklin Gothic Medium';
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+th,td{
+    border: 1px solid #ddd;
+    padding: 12px 15px;
+    text-align: center;
+}
+tr:nth-child(even){
+    background-color: #fff0f0;
+}
+tr:hover{
+    background-color: #fbeaea;
+}
+a{
+    font-family:cursive;
+    color: blueviolet;
+    text-decoration-line: overline;
+}
+#first{
+    display: block;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#second{
+    display: block;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#third{
+    display: block;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#fourth{
+    display: block;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#fifth{
+    display: block;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+a{
+    text-decoration: none;
+    font-weight: bold;
+    padding: 88px 45px;
+}
+a:hover{
+    color:aqua;
+    text-decoration: underline;
+}
+a:active{
+    color: darkorange;
+}
