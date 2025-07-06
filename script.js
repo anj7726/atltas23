@@ -5,6 +5,14 @@ window.onload=function(){
 function showSpecial() {
     const special = document.getElementById("special");
     special.style.display = "block";
+    special.style.backgroundColor = "lightyellow";
+    special.style.border = "2px solid orange";
+    special.style.padding = "10px";
+    special.style.fontSize = "20px";
+    special.style.textAlign = "center";
+    special.style.margin = "20px auto";
+    special.style.width = "80%";
+    special.innerHTML = "Today's Special: Kunafa Chocolate  Cake!";
 }
 setInterval(function(){
 const text=document.getElementById("blinking-text");
